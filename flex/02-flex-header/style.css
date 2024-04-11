@@ -1,4 +1,10 @@
 .header  {
+  padding: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
   font-family: monospace;
   background: papayawhip;
 }
@@ -9,11 +15,15 @@
   color: tomato;
   background: white;
   padding: 4px 32px;
+  margin: 0 auto;
 }
 
 ul {
   /* this removes the dots on the list items*/
+  display: flex;
+  gap: 1rem;
   list-style-type: none;
+  flex-direction: row;
 }
 
 a {
